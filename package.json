@@ -1,0 +1,27 @@
+{
+    "name": "wallet-monitor",
+    "version": "1.0.0",
+    "description": "Monitor de dominancia USDT con alertas Telegram",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js",
+        "dev": "node bot.js"
+    },
+    "keywords": [
+        "crypto",
+        "usdt",
+        "telegram",
+        "bot",
+        "monitor"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.2",
+        "dotenv": "^16.3.1",
+        "node-telegram-bot-api": "^0.64.0"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
